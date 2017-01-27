@@ -8,6 +8,7 @@
     <title>Sistema de inscrições -@yield('title')</title>
 
     <link rel="stylesheet" href="{{ asset('/css/bootstrap.css') }}" />
+    <link rel="stylesheet" href="{{ asset('/css/adminlte.css') }}" />
     <link rel="stylesheet" href="{{ asset('/css/app.css') }}" />
     <link rel="stylesheet" href="{{ asset('/css/plugins.css') }}" />
 

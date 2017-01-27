@@ -13,7 +13,7 @@ const { mix } = require('laravel-mix');
 
 // MIX APP ESSENTIAL CSS FILES
 mix.less('resources/assets/less/bootstrap.less', 'public/css/bootstrap.css');
-// mix.less('resources/assets/less/adminlte.less', 'public/css/adminlte.css');
+mix.less('resources/assets/less/adminlte.less', 'public/css/adminlte.css');
 mix.less('resources/assets/less/app.less', 'public/css/app.css');
 
 // MIX APP CSS PLGUINS
