@@ -177,6 +177,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Own custom service providers...
+         */
+        CNM\FlashToastrAlert\FlashToastrAlertProvider::class
+
     ],
 
     /*
@@ -226,6 +231,10 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /*
+         * Own custom facades
+         */
+        'Flash' => CNM\FlashToastrAlert\Flash::class,
     ],
 
 ];
